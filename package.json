@@ -1,7 +1,7 @@
 {
   "name": "gh-pages-home",
   "version": "0.0.0",
-  "homepage": "https://antoinemariani.github.io/",
+  "homepage": "https://antoinemariani.github.io/gh-pages-home",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
