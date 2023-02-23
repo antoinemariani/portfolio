@@ -68,7 +68,9 @@ function Projects() {
 
   return (
     <div id="projects" className="container my-16 flex">
-      <div className="flex flex-wrap gap-16">{projectsComponents}</div>
+      <div className="flex flex-wrap justify-around gap-16">
+        {projectsComponents}
+      </div>
     </div>
   );
 }
