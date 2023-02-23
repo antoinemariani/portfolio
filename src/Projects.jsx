@@ -6,14 +6,14 @@ function Projects() {
       key: 1,
       name: "Pomodoro Vite.js",
       url: "/pomodoro-vitejs",
-      img: "src/img/pomodoro.png",
+      img: "src/pomodoro.png",
       description: "A Pomodoro timer built with Vite.js",
     },
     {
       key: 2,
       name: "Re:Cycle",
       url: "https://www.recycle-velo.me",
-      img: "src/img/recycle-home-1.png",
+      img: "src/recycle-home-1.png",
       description:
         "Online bike repair diagnosis & services website, made with Ruby on Rails, PostgreSQL, JavaScript & StimulusJS",
     },
@@ -21,7 +21,7 @@ function Projects() {
       key: 3,
       name: "BlaBlaFlight",
       url: "https://www.github.com/blablaflight",
-      img: "src/img/blablaflight-home.png",
+      img: "src/blablaflight-home.png",
       description:
         "Flightpooling app, made with Ruby on Rails, PostgreSQL, JavaScript & StimulusJS",
     },
@@ -29,14 +29,14 @@ function Projects() {
       key: 4,
       name: "Profile Page",
       url: "/profile",
-      img: "src/img/profile.png",
+      img: "src/profile.png",
       description: "A pedagogical profile page built in vanilla HTML/CSS",
     },
     {
       key: 5,
       name: "My First Landing Page",
       url: "/landing",
-      img: "src/img/landing.png",
+      img: "src/landing.png",
       description: "A pedagogical landing page built in vanilla HTML/CSS",
     },
 
