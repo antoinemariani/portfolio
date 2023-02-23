@@ -1,20 +1,31 @@
-function Project({ name, url }) {
+function Project({ name, url, img, description }) {
   const projectName = name;
   const projectUrl = url;
+  const projectImg = img;
+  const projectDescription = description;
+
   return (
-    <div>
-      <div className="max-w-sm overflow-hidden rounded shadow-lg">
-        <img
-          className="w-full"
-          src="https://tailwindcss.com/img/card-top.jpg"
-          alt="Sunset in the mountains"
-        />
-        <div className="px-6 py-4">
-          <div className="mb-2 text-xl font-bold">{projectName}</div>
-          <p className="text-base text-gray-700">{projectUrl}</p>
+    <a href={projectUrl} id={projectName} className="group m-8 block">
+      <img
+        src={projectImg}
+        alt={projectName}
+        className="h-[350px] rounded-md object-cover shadow-md sm:h-[450px]"
+      />
+
+      <div className="mt-3 flex justify-between text-sm">
+        <div className="text-left">
+          <h3 className="text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            {projectName}
+          </h3>
+
+          <p className="mt-1.5 max-w-[45ch] text-xs text-gray-500">
+            {projectDescription}
+          </p>
         </div>
+
+        <p className="text-gray-900">More</p>
       </div>
-    </div>
+    </a>
   );
 }
 
