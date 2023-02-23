@@ -1,8 +1,9 @@
-function Project({ name, url, img, description }) {
+function Project({ name, url, img, description, tech }) {
   const projectName = name;
   const projectUrl = url;
   const projectImg = img;
   const projectDescription = description;
+  const projectTech = tech;
 
   return (
     <a href={projectUrl} id={projectName} className="group m-8 block">
@@ -23,7 +24,7 @@ function Project({ name, url, img, description }) {
           </p>
         </div>
 
-        <p className="text-gray-900">More</p>
+        <p className="text-gray-300">{projectTech}</p>
       </div>
     </a>
   );

@@ -12,6 +12,7 @@ function Projects() {
       name: "Pomodoro Vite.js",
       url: "/pomodoro-vitejs",
       img: pomodoroImg,
+      tech: "Vite.js",
       description: "A Pomodoro timer built with Vite.js",
     },
     {
@@ -19,6 +20,7 @@ function Projects() {
       name: "Re:Cycle",
       url: "https://www.recycle-velo.me",
       img: recycleImg,
+      tech: "Ruby on Rails",
       description:
         "Online bike repair diagnosis & services website, made with Ruby on Rails, PostgreSQL, JavaScript & StimulusJS",
     },
@@ -27,6 +29,7 @@ function Projects() {
       name: "BlaBlaFlight",
       url: "https://www.github.com/blablaflight",
       img: blablaflightImg,
+      tech: "Ruby on Rails",
       description:
         "Flightpooling app, made with Ruby on Rails, PostgreSQL, JavaScript & StimulusJS",
     },
@@ -35,6 +38,7 @@ function Projects() {
       name: "Profile Page",
       url: "/profile",
       img: profileImg,
+      tech: "HTML/CSS",
       description: "A pedagogical profile page built in vanilla HTML/CSS",
     },
     {
@@ -42,6 +46,7 @@ function Projects() {
       name: "My First Landing Page",
       url: "/landing",
       img: landingImg,
+      tech: "HTML/CSS",
       description: "A pedagogical landing page built in vanilla HTML/CSS",
     },
 
@@ -62,6 +67,7 @@ function Projects() {
         url={project.url}
         description={project.description}
         img={project.img}
+        tech={project.tech}
       />
     );
   });
