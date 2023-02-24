@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import Projects from "./Projects.jsx";
 import Banner from "./Banner.jsx";
 import Navbar from "./Navbar.jsx";
-import poweredBy from "./powered-by-vitawind-dark.png";
 
 function App() {
   return (
