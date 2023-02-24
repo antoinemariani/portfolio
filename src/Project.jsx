@@ -24,7 +24,7 @@ function Project({ name, url, img, description, tech }) {
           </p>
         </div>
 
-        <p className="text-gray-300">{projectTech}</p>
+        <p className="text-gray-500">{projectTech}</p>
       </div>
     </a>
   );
