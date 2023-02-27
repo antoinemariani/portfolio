@@ -9,5 +9,6 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "cSpell.words": ["blablaflight", "Flightpooling", "Mariani"]
+  "cSpell.words": ["blablaflight", "Flightpooling", "Mariani", "topbutton"],
+  "cSpell.ignoreWords": ["uarr"]
 }

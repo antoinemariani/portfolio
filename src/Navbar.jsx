@@ -92,7 +92,7 @@ export default function Navbar() {
                   target="_blank"
                   className="block border-b-4 border-transparent p-6 hover:border-red-700"
                 >
-                  <i className="fa-solid fa-inbox"></i>
+                  <i className="fa-solid fa-envelope"></i>
                   <span className="sr-only"> Mail </span>
                 </a>
               </span>
