@@ -9,5 +9,12 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "cSpell.words": ["blablaflight", "Flightpooling", "Mariani"]
+  "cSpell.words": ["blablaflight", "Flightpooling", "Mariani", "topbutton"],
+  "cSpell.ignoreWords": ["uarr"],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
 }
