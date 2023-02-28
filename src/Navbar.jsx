@@ -22,10 +22,11 @@ export default function Navbar() {
             </svg>
           </button>
 
-          <a href="#" className="flex">
+          {/* <a href="#" className="flex">
             <span className="sr-only">Logo</span>
             <span className="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
-          </a>
+          </a> */}
+          <span className="font  text-xl">Antoine Mariani</span>
         </div>
 
         <div className="flex flex-1 items-center justify-end gap-8">
