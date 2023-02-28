@@ -26,7 +26,7 @@ export default function Navbar() {
             <span className="sr-only">Logo</span>
             <span className="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
           </a> */}
-          <span className="font  text-xl">Antoine Mariani</span>
+          <span className="sr-only text-xl">Antoine Mariani</span>
         </div>
 
         <div className="flex flex-1 items-center justify-end gap-8">

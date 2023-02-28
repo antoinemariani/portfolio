@@ -8,7 +8,7 @@ export default function Banner() {
     <div className="">
       <div className="flex min-w-full max-w-[100vh] flex-wrap items-center justify-around bg-white text-center">
         <div id="banner" className="flex min-w-[50vh] flex-col justify-center">
-          <div className="flex min-h-[100vh] flex-col items-center justify-center gap-8">
+          <div className="flex min-h-[80vh] flex-col items-center justify-center gap-8">
             <img
               className="h-48 w-48 rounded-full shadow-md"
               src={profilePic}
@@ -21,9 +21,10 @@ export default function Banner() {
             <div
               id="link"
               align="center"
-              className="mb-8 mt-8 self-center sm:block md:block lg:block"
+              className="mb-8 mt-8 self-center sm:block md:hidden lg:hidden"
             >
-              <ScrollButtons />
+              <ScrollButton name="projects" icon="fa-solid fa-arrow-down" />
+              {/* <ScrollButtons /> */}
               {/* <a
                 className="inline-block rounded-full border border-indigo-600 p-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
                 href="#projects"
@@ -34,12 +35,14 @@ export default function Banner() {
             </div>
           </div>
         </div>
-        <Skills />
+        <div className="sm:hidden md:block">
+          <Skills />
+        </div>
       </div>
       <div
         id="link"
         align="center"
-        className="mb-8 mt-8 self-center sm:hidden md:hidden lg:block"
+        className="mb-8 mt-8 self-center sm:hidden md:block lg:block"
       >
         <ScrollButton name="projects" icon="fa-solid fa-arrow-down" />
       </div>
