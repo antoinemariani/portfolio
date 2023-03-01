@@ -3,11 +3,11 @@ import resume from "./resume.pdf";
 export default function Navbar() {
   return (
     <header aria-label="Site Header" className="border-b border-gray-100">
-      <div className="mx-auto flex h-16 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8">
+      <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
         <div className="flex items-center gap-4">
           <button type="button" className="p-2 lg:hidden">
             <svg
-              className="h-6 w-6"
+              className="w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -24,12 +24,12 @@ export default function Navbar() {
 
           {/* <a href="#" className="flex">
             <span className="sr-only">Logo</span>
-            <span className="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
+            <span className="inline-block w-32 h-10 bg-gray-200 rounded-lg"></span>
           </a> */}
-          <span className="sr-only text-xl">Antoine Mariani</span>
+          {/* <span className="text-xl sr-only">Antoine Mariani</span> */}
         </div>
 
-        <div className="flex flex-1 items-center justify-end gap-8">
+        <div className="flex items-center justify-end flex-1 gap-8">
           <nav
             aria-label="Site Nav"
             className="hidden lg:flex lg:gap-4 lg:text-xs lg:font-bold lg:uppercase lg:tracking-wide lg:text-gray-500"
@@ -64,12 +64,12 @@ export default function Navbar() {
           </nav>
 
           <div className="flex items-center">
-            <div className="flex items-center divide-x divide-gray-100 border-x border-gray-100">
+            <div className="flex items-center border-gray-100 divide-x divide-gray-100 border-x">
               <span>
                 <a
                   href="https://www.linkedin.com/in/antoinemariani"
                   target="_blank"
-                  className="block border-b-4 border-transparent p-6 hover:border-red-700"
+                  className="block p-6 border-b-4 border-transparent hover:border-red-700"
                 >
                   <i className="fa-brands fa-linkedin"></i>
                   <span className="sr-only"> LinkedIn </span>
@@ -80,7 +80,7 @@ export default function Navbar() {
                 <a
                   href="https://www.github.com/antoinemariani"
                   target="_blank"
-                  className="block border-b-4 border-transparent p-6 hover:border-red-700"
+                  className="block p-6 border-b-4 border-transparent hover:border-red-700"
                 >
                   <i className="fa-brands fa-github"></i>
                   <span className="sr-only"> GitHub </span>
@@ -91,7 +91,7 @@ export default function Navbar() {
                 <a
                   href="mailto:hello@amariani.dev"
                   target="_blank"
-                  className="block border-b-4 border-transparent p-6 hover:border-red-700"
+                  className="block p-6 border-b-4 border-transparent hover:border-red-700"
                 >
                   <i className="fa-solid fa-envelope"></i>
                   <span className="sr-only"> Mail </span>
@@ -101,10 +101,10 @@ export default function Navbar() {
               {/* <span className="hidden sm:block">
                 <a
                   href="/search"
-                  className="block border-b-4 border-transparent p-6 hover:border-red-700"
+                  className="block p-6 border-b-4 border-transparent hover:border-red-700"
                 >
                   <svg
-                    className="h-4 w-4"
+                    className="w-4 h-4"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"

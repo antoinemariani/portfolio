@@ -1,11 +1,11 @@
 export default function Skills() {
   return (
-    <div className="text flex flex-col justify-around gap-8 p-8 align-middle">
-      <div className="items-left flex flex-col gap-4">
-        <h5 align="left" className="text-xl font-medium">
+    <div className="flex flex-col justify-around gap-8 p-8 align-middle text">
+      <div className="flex flex-col gap-4 items-left">
+        <h5 align="left" className="text-xl font-medium text-gray-800">
           Languages
         </h5>
-        <div className="flex max-w-lg flex-wrap gap-2">
+        <div className="flex flex-wrap max-w-lg gap-2">
           <img
             src="https://img.shields.io/badge/ruby-%23cc342d.svg?logo=ruby&logoColor=white&style=for-the-badge"
             alt="Ruby"
@@ -29,11 +29,11 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="items-left flex flex-col gap-4">
-        <h5 align="left" className="text-xl font-medium">
+      <div className="flex flex-col gap-4 items-left">
+        <h5 align="left" className="text-xl font-medium text-gray-800">
           Backend
         </h5>
-        <div className="flex max-w-lg flex-wrap gap-2">
+        <div className="flex flex-wrap max-w-lg gap-2">
           <img
             src="https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?logo=ruby%20on%20rails&logoColor=white&style=for-the-badge"
             alt="Rails"
@@ -45,11 +45,11 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="items-left flex flex-col gap-4">
-        <h5 align="left" className="text-xl font-medium">
+      <div className="flex flex-col gap-4 items-left">
+        <h5 align="left" className="text-xl font-medium text-gray-800">
           Frontend
         </h5>
-        <div className="flex max-w-lg flex-wrap gap-2">
+        <div className="flex flex-wrap max-w-lg gap-2">
           <img
             src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361dafb&style=for-the-badge"
             alt="React"
@@ -78,11 +78,11 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="items-left flex flex-col gap-4">
-        <h5 align="left" className="text-xl font-medium">
+      <div className="flex flex-col gap-4 items-left">
+        <h5 align="left" className="text-xl font-medium text-gray-800">
           Design + Photography
         </h5>
-        <div className="flex max-w-lg flex-wrap gap-2">
+        <div className="flex flex-wrap max-w-lg gap-2">
           <img
             src="https://img.shields.io/badge/adobe%20lightroom-%2331a8ff.svg?logo=adobe-lightroom&logoColor=white&style=for-the-badge"
             alt="Adobe Lightroom"
@@ -98,11 +98,11 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="items-left flex flex-col gap-4">
-        <h5 align="left" className="text-xl font-medium">
+      <div className="flex flex-col gap-4 items-left">
+        <h5 align="left" className="text-xl font-medium text-gray-800">
           Others
         </h5>
-        <div className="flex max-w-lg flex-wrap gap-2">
+        <div className="flex flex-wrap max-w-lg gap-2">
           <img
             src="https://img.shields.io/badge/yarn-%232c8ebb.svg?logo=yarn&logoColor=white&style=for-the-badge"
             alt="Yarn"

@@ -10,23 +10,27 @@ export default function Banner() {
         <div id="banner" className="flex min-w-[50vh] flex-col justify-center">
           <div className="flex min-h-[80vh] flex-col items-center justify-center gap-8">
             <img
-              className="h-48 w-48 rounded-full shadow-md"
+              className="w-48 h-48 rounded-full shadow-md"
               src={profilePic}
               alt="Antoine Mariani"
             />
             <div className="flex flex-col gap-2">
-              <h1 className="text-4xl font-bold">Antoine Mariani</h1>
-              <p className="text-2xl font-bold">Fullstack Developer</p>
+              <h1 className="text-4xl font-bold text-gray-800">
+                Antoine Mariani
+              </h1>
+              <p className="text-2xl font-bold text-gray-800">
+                Fullstack Developer
+              </p>
             </div>
             <div
               id="link"
               align="center"
-              className="mb-8 mt-8 self-center sm:block md:hidden lg:hidden"
+              className="self-center mt-8 mb-8 sm:block md:hidden lg:hidden"
             >
-              <ScrollButton name="projects" icon="fa-solid fa-arrow-down" />
+              <ScrollButton name="about" icon="fa-solid fa-arrow-down" />
               {/* <ScrollButtons /> */}
               {/* <a
-                className="inline-block rounded-full border border-indigo-600 p-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+                className="inline-block p-3 text-indigo-600 border border-indigo-600 rounded-full hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
                 href="#projects"
               >
                 <span className="sr-only"> Download </span>
@@ -42,9 +46,9 @@ export default function Banner() {
       <div
         id="link"
         align="center"
-        className="mb-8 mt-8 self-center sm:hidden md:block lg:block"
+        className="self-center mt-8 mb-8 sm:hidden md:block lg:block"
       >
-        <ScrollButton name="projects" icon="fa-solid fa-arrow-down" />
+        <ScrollButton name="about" icon="fa-solid fa-arrow-down" />
       </div>
     </div>
   );

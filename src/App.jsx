@@ -13,28 +13,34 @@ function App() {
       <BackToTopButton />
       <Navbar />
       <Banner />
-      <div className="flex min-h-screen min-w-full items-center justify-center bg-amber-100 text-center">
+      {/* <div
+        id="about"
+        className="flex items-center justify-center min-w-full min-h-screen text-center bg-amber-100"
+      >
         <About />
-      </div>
-      <div className="flex min-h-screen min-w-full items-center justify-center bg-amber-100 text-center">
+      </div> */}
+      <div className="flex items-center justify-center min-w-full min-h-screen text-center bg-white">
         <Projects />
       </div>
-      <div className="flex min-h-screen min-w-full items-center justify-center bg-green-100 text-center">
+      <div className="flex items-center justify-center min-w-full min-h-screen text-center bg-amber-100">
         <div
           id="skills"
-          className="container my-16 mx-8 flex max-w-full justify-center"
+          className="container flex justify-center max-w-full mx-8 my-16"
         >
-          <Skills />
+          <div className="">
+            <h2 className="text-4xl font-bold text-gray-800">Tech Skills</h2>
+            <Skills />
+          </div>
         </div>
       </div>
-      <div className="flex min-h-screen min-w-full items-center justify-center bg-red-100 text-center">
+      {/* <div className="flex items-center justify-center min-w-full min-h-screen text-center bg-red-100">
         <div
           id="contact"
-          className="container my-16 mx-8 flex max-w-full justify-center"
+          className="container flex justify-center max-w-full mx-8 my-16"
         >
           <ContactForm />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

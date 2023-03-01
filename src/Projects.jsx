@@ -16,7 +16,8 @@ function Projects() {
   });
 
   return (
-    <div id="projects" className="container my-16 flex">
+    <div id="projects" className="container flex flex-col justify-center my-16">
+      <h2 className="text-4xl font-bold text-gray-800">Projects</h2>
       <div className="flex flex-wrap justify-around gap-16">
         {projectsComponents}
       </div>

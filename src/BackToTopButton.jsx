@@ -9,9 +9,9 @@ const BackToTopButton = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 1000) {
+      if (window.scrollY > 990) {
         setShowButton(true);
-      } else if (window.scrollY <= 1000) {
+      } else if (window.scrollY <= 990) {
         setShowButton(false);
       }
     };
@@ -34,9 +34,9 @@ const BackToTopButton = () => {
       onClick={goToTop}
       title="Go To Top"
       type="button"
-      className="fixed bottom-8 right-8 z-40 flex h-12 w-12 items-center justify-center rounded-full border border-indigo-600 p-3 text-indigo-600 hover:bg-indigo-600  hover:text-white hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+      className="fixed z-40 flex items-center justify-center w-12 h-12 p-3 text-indigo-600 border border-indigo-600 rounded-full bottom-8 right-8 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
     >
-      <span className="font-base text-center align-middle text-2xl">
+      <span className="text-2xl text-center align-middle font-base">
         &uarr;
       </span>
     </div>
