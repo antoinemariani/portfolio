@@ -6,14 +6,18 @@ function Project({ name, url, img, description, tech }) {
   const projectTech = tech;
 
   return (
-    <a href={projectUrl} id={projectName} className="group m-8 block">
+    <a
+      href={projectUrl}
+      id={projectName}
+      className="block m-8 duration-300 ease-in-out group hover:-translate-y-8"
+    >
       <img
         src={projectImg}
         alt={projectName}
         className="h-[350px] rounded-md object-cover shadow-md sm:h-[450px]"
       />
 
-      <div className="mt-3 flex justify-between text-sm">
+      <div className="flex justify-between mt-3 text-sm">
         <div className="text-left">
           <h3 className="text-gray-900 group-hover:underline group-hover:underline-offset-4">
             {projectName}
