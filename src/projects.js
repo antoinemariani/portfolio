@@ -27,7 +27,7 @@ const projects = [
   {
     key: key++,
     name: "BlaBlaFlight",
-    url: "https://www.github.com/blablaflight",
+    url: "https://www.github.com/antoinemariani/blablaflight",
     img: blablaflightImg,
     tech: "Ruby on Rails",
     description:

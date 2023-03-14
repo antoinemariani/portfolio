@@ -48,7 +48,7 @@ export default function Banner() {
         align="center"
         className="self-center mt-8 mb-8 sm:hidden md:block lg:block"
       >
-        <ScrollButton name="about" icon="fa-solid fa-arrow-down" />
+        <ScrollButton name="projects" icon="fa-solid fa-arrow-down" />
       </div>
     </div>
   );
