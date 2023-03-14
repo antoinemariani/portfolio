@@ -1,35 +1,19 @@
-# portfolio
+# Developer Portfolio - amariani.dev
 
-- **template of:** vite + react
-- **tailwindcss:** v3.x
+This is my personal portfolio showcasing some of my skills, projects and experiences as a developer. 
+It is public at [amariani.dev](https://www.amariani.dev)
 
-## Started
+## Technologies Used
 
-```bash
-yarn
-# or `npm install`
-```
+- JavaScript
+- Vite.js
+- TailwindCSS
 
----
+## Projects
 
-## Develop
+You can find a visual list of my different web projects, linked to the associated repository or website.
 
-```bash
-yarn dev
-# or `npm run dev`
-```
+## Contact
 
----
-
-## Build
-
-```bash
-yarn build
-# or `npm run build`
-```
-
----
-
-<p align="center">
-<img src="./powered-by-vitawind-bright.png">
-</p>
+- Email: hello@amariani.dev
+- LinkedIn: linkedin.com/in/antoinemariani
