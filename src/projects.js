@@ -9,11 +9,12 @@ let key = 1;
 const projects = [
   {
     key: key++,
-    name: "Pomodoro Vite.js",
-    url: "/pomodoro-vitejs",
-    img: pomodoroImg,
-    tech: "Vite.js",
-    description: "A Pomodoro timer built with Vite.js",
+    name: "New Paris Restaurant",
+    url: "https://www.github.com/antoinemariani/eunoe-restaurant",
+    img: restaurantImg,
+    description:
+      "A restaurant website & booking system, made with Ruby on Rails, PostgreSQL and TailwindCSS",
+    tech: "Ruby on Rails",
   },
   {
     key: key++,
@@ -26,21 +27,20 @@ const projects = [
   },
   {
     key: key++,
+    name: "Pomodoro Vite.js",
+    url: "/pomodoro-vitejs",
+    img: pomodoroImg,
+    tech: "Vite.js",
+    description: "A Pomodoro timer built with Vite.js",
+  },
+  {
+    key: key++,
     name: "BlaBlaFlight",
     url: "https://www.github.com/antoinemariani/blablaflight",
     img: blablaflightImg,
     tech: "Ruby on Rails",
     description:
       "Flightpooling app, made with Ruby on Rails, PostgreSQL, JavaScript & StimulusJS",
-  },
-  {
-    key: key++,
-    name: "New Paris Restaurant",
-    url: "https://www.github.com/antoinemariani/eunoe-restaurant",
-    img: restaurantImg,
-    description:
-      "A restaurant website & booking system, made with Ruby on Rails, PostgreSQL and TailwindCSS",
-    tech: "Ruby on Rails",
   },
   {
     key: key++,
@@ -61,7 +61,7 @@ const projects = [
   // {
   //   key: key++,
   //   name: "GitHub",
-  //   url: "https://www.github.com/antoinemariani",
+  //   url: "https://www.github.com/antoinemariani/portfolio",
   //   img: "",
   //   description: "",
   // },
