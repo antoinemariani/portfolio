@@ -8,13 +8,14 @@ function Project({ name, url, img, description, tech }) {
   return (
     <a
       href={projectUrl}
+      target="_blank"
       id={projectName}
       className="block m-8 duration-300 ease-in-out group hover:-translate-y-8"
     >
       <img
         src={projectImg}
         alt={projectName}
-        className="h-[350px] rounded-md object-cover shadow-md sm:h-[450px]"
+        className="h-[450px] rounded-md object-cover shadow-md"
       />
 
       <div className="flex justify-between mt-3 text-sm">

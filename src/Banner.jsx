@@ -27,7 +27,10 @@ export default function Banner() {
               align="center"
               className="self-center mt-8 mb-8 sm:block md:hidden lg:hidden"
             >
-              <ScrollButton name="about" icon="fa-solid fa-arrow-down" />
+              <ScrollButton
+                name="banner-skills"
+                icon="fa-solid fa-arrow-down"
+              />
               {/* <ScrollButtons /> */}
               {/* <a
                 className="inline-block p-3 text-indigo-600 border border-indigo-600 rounded-full hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
@@ -39,7 +42,7 @@ export default function Banner() {
             </div>
           </div>
         </div>
-        <div className="sm:hidden md:block">
+        <div id="banner-skills" className="sm:hidden md:block">
           <Skills />
         </div>
       </div>

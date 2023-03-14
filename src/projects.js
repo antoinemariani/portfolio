@@ -28,7 +28,7 @@ const projects = [
   {
     key: key++,
     name: "Pomodoro Vite.js",
-    url: "/pomodoro-vitejs",
+    url: "https://antoinemariani.github.io/pomodoro-vitejs",
     img: pomodoroImg,
     tech: "Vite.js",
     description: "A Pomodoro timer built with Vite.js",
@@ -45,7 +45,7 @@ const projects = [
   {
     key: key++,
     name: "Profile Page",
-    url: "/profile",
+    url: "https://antoinemariani.github.io/profile",
     img: profileImg,
     tech: "HTML/CSS",
     description: "A pedagogical profile page built in vanilla HTML/CSS",
@@ -53,7 +53,7 @@ const projects = [
   {
     key: key++,
     name: "My First Landing Page",
-    url: "/landing",
+    url: "https://antoinemariani.github.io/landing",
     img: landingImg,
     tech: "HTML/CSS",
     description: "A pedagogical landing page built in vanilla HTML/CSS",

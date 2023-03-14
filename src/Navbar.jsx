@@ -4,8 +4,8 @@ export default function Navbar() {
   return (
     <header aria-label="Site Header" className="border-b border-gray-100">
       <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
-        <div className="flex items-center gap-4">
-          <button type="button" className="p-2 lg:hidden">
+        <div className="flex items-center gap-4 px-4">
+          <button type="button" className="hidden p-2">
             <svg
               className="w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -21,6 +21,12 @@ export default function Navbar() {
               />
             </svg>
           </button>
+          <a
+            href={resume}
+            className="block h-16 border-b-4 border-transparent text-xs font-bold uppercase leading-[4rem] tracking-wide text-gray-500 hover:border-current hover:text-red-700 lg:hidden"
+          >
+            Resume
+          </a>
 
           {/* <a href="#" className="flex">
             <span className="sr-only">Logo</span>
@@ -28,7 +34,6 @@ export default function Navbar() {
           </a> */}
           {/* <span className="text-xl sr-only">Antoine Mariani</span> */}
         </div>
-
         <div className="flex items-center justify-end flex-1 gap-8">
           <nav
             aria-label="Site Nav"
